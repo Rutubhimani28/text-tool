@@ -6,6 +6,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { AdScripts, ADSTERRA_BANNER_CONTAINER_ID } from "@/components/ad-scripts";
 import { SideBanners, InlineBanner } from "@/components/banner-ads";
+import { MonetagScripts } from "@/components/monetag-scripts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -86,6 +87,7 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
         <AdScripts />
+        <MonetagScripts />
       </body>
     </html>
   );
