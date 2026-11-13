@@ -4,7 +4,6 @@ import CaseConverterClient from "./case-converter-client";
 import { CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 import { GrammarlyAffiliate } from "@/components/grammarly-affiliate";
-import { GoogleAd } from "@/components/google-ad";
 
 export const metadata: Metadata = {
   title: "Case Converter - Change Text to Uppercase, Lowercase & Title Case",
@@ -81,8 +80,6 @@ export default function CaseConverterPage() {
         </div>
 
         <GrammarlyAffiliate />
-
-        <GoogleAd slot="TOOL_PAGE_SLOT_ID" />
 
         {/* SEO Content Section */}
         <article className="prose prose-slate dark:prose-invert max-w-none">

@@ -1,11 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { ADSENSE_CLIENT_ID } from "@/config/adsense";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -60,14 +58,6 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/TextToolLogo.png" sizes="any" />
         <link rel="apple-touch-icon" href="/TextToolLogo.png" />
-        {ADSENSE_CLIENT_ID !== "ca-pub-9994767233328819" && (
-          <Script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
-            crossOrigin="anonymous"
-            strategy="afterInteractive"
-          />
-        )}
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col bg-background font-sans antialiased text-foreground`}>
         <ThemeProvider

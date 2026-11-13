@@ -4,7 +4,6 @@ import DuplicateLineRemoverClient from "./duplicate-line-remover-client";
 import { CheckCircle2, Code2 } from "lucide-react";
 import Link from "next/link";
 import { AffiliateBanner, AffiliateLink } from "@/components/affiliate-banner";
-import { GoogleAd } from "@/components/google-ad";
 
 export const metadata: Metadata = {
   title: "Duplicate Line Remover - Remove Duplicate Text Online",
@@ -89,8 +88,6 @@ export default function DuplicateLineRemoverPage() {
           <AffiliateLink href="https://marketplace.visualstudio.com/" variant="secondary">VS Code Extensions</AffiliateLink>
           <AffiliateLink href="https://cursor.com/" variant="primary">Cursor AI</AffiliateLink>
         </AffiliateBanner>
-
-        <GoogleAd slot="TOOL_PAGE_SLOT_ID" />
 
         {/* SEO Content Section */}
         <article className="prose prose-slate dark:prose-invert max-w-none">

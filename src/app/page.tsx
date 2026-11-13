@@ -35,7 +35,6 @@ import {
 import { Button, buttonVariants } from "@/components/ui/button";
 import { TypingGame } from "@/components/typing-game";
 import { ToolSearch } from "@/components/tool-search";
-import { GoogleAd } from "@/components/google-ad";
 import { FloatingToolsGraphic } from "@/components/floating-tools-graphic";
 
 /* ------------------------------------------------------------------ */
@@ -484,10 +483,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <div className="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 md:mt-8">
-        <GoogleAd slot="HOMEPAGE_SLOT_ID" />
-      </div>
 
       {/* ─── POPULAR TOOLS ────────────────────────────────────── */}
       <section className="py-5 md:py-24 bg-background">

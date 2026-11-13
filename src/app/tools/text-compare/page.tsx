@@ -3,7 +3,6 @@ import TextCompareClient from "./text-compare-client";
 import { CheckCircle2, GitBranch } from "lucide-react";
 import Link from "next/link";
 import { AffiliateBanner, AffiliateLink } from "@/components/affiliate-banner";
-import { GoogleAd } from "@/components/google-ad";
 
 export const metadata: Metadata = {
   title: "Text Compare - Find Differences Between Two Texts",
@@ -58,8 +57,6 @@ export default function TextComparePage() {
           <AffiliateLink href="https://github.com/features/copilot" variant="secondary">GitHub Copilot</AffiliateLink>
           <AffiliateLink href="https://cursor.com/" variant="primary">Cursor AI</AffiliateLink>
         </AffiliateBanner>
-
-        <GoogleAd slot="TOOL_PAGE_SLOT_ID" />
 
         <article className="prose prose-slate dark:prose-invert max-w-none">
           <h2 className="text-2xl font-semibold mb-4">What Is a Text Compare Tool?</h2>

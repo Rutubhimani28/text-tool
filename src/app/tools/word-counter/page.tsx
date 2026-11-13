@@ -4,7 +4,6 @@ import WordCounterClient from "./word-counter-client";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 import { GrammarlyAffiliate } from "@/components/grammarly-affiliate";
-import { GoogleAd } from "@/components/google-ad";
 
 export const metadata: Metadata = {
   title: "Free Online Word Counter - Character & Word Count Tool",
@@ -81,8 +80,6 @@ export default function WordCounterPage() {
         </div>
 
         <GrammarlyAffiliate />
-
-        <GoogleAd slot="TOOL_PAGE_SLOT_ID" />
 
         {/* SEO Content Section */}
         <article className="prose prose-slate dark:prose-invert max-w-none">
