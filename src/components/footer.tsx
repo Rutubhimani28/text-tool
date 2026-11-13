@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ADSTERRA_SMARTLINK } from "@/components/ad-scripts";
 import Image from "next/image";
 
 const footerLinks = {
@@ -85,6 +86,14 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} TextForge. All rights reserved.
           </p>
+          <a
+            href={ADSTERRA_SMARTLINK}
+            target="_blank"
+            rel="sponsored nofollow noopener noreferrer"
+            className="mt-2 inline-block text-sm text-muted-foreground hover:text-primary transition-colors sm:mt-0"
+          >
+            Sponsored
+          </a>
         </div>
       </div>
     </footer>
