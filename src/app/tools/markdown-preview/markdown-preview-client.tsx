@@ -78,7 +78,7 @@ function markdownToHtml(md: string): string {
 
 const DEFAULT_MD = `# Welcome to Markdown Preview
 
-This is a **live** Markdown editor built into TextTools.
+This is a **live** Markdown editor built into TextForge.
 
 ## Features
 

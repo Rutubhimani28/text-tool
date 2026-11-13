@@ -7,17 +7,17 @@ const textStatisticsTool = TOOL_MAP.get("text-statistics");
 
 export const metadata: Metadata = textStatisticsTool
   ? {
-      title: `${textStatisticsTool.name} — TextTools`,
+      title: `${textStatisticsTool.name} — TextForge`,
       description: textStatisticsTool.seoDescription,
       alternates: { canonical: textStatisticsTool.href },
       openGraph: {
-        title: `${textStatisticsTool.name} — TextTools`,
+        title: `${textStatisticsTool.name} — TextForge`,
         description: textStatisticsTool.seoDescription,
         url: textStatisticsTool.href,
       },
     }
   : {
-      title: "Text Statistics — TextTools",
+      title: "Text Statistics — TextForge",
       description: "View detailed text metrics and structure analytics.",
     };
 

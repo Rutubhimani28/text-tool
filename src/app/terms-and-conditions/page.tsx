@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | TextTools",
-  description: "Review the terms of use for TextTools and how you may use our free online text utilities.",
+  title: "Terms & Conditions | TextForge",
+  description: "Review the terms of use for TextForge and how you may use our free online text utilities.",
 };
 
 export default function TermsAndConditionsPage() {
@@ -16,7 +16,7 @@ export default function TermsAndConditionsPage() {
         <div className="container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">Terms & Conditions</h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            By using TextTools, you agree to use these utilities responsibly and lawfully.
+            By using TextForge, you agree to use these utilities responsibly and lawfully.
           </p>
         </div>
       </section>
@@ -26,12 +26,12 @@ export default function TermsAndConditionsPage() {
           <div className="prose prose-lg max-w-none dark:prose-invert">
             <h2>Introduction</h2>
             <p>
-              These Terms & Conditions ("Terms") govern your access to and use of TextTools (the "Site"). By using the Site, you agree to comply with these Terms. If you do not agree, please do not use the Site.
+              These Terms & Conditions ("Terms") govern your access to and use of TextForge (the "Site"). By using the Site, you agree to comply with these Terms. If you do not agree, please do not use the Site.
             </p>
 
             <h2>Permitted Use</h2>
             <p>
-              TextTools provides browser-based utilities to manipulate and analyze text. You may use the tools for lawful purposes and in accordance with these Terms. You are responsible for ensuring your use complies with applicable laws, regulations, and any third-party terms that apply to content you process using the Site.
+              TextForge provides browser-based utilities to manipulate and analyze text. You may use the tools for lawful purposes and in accordance with these Terms. You are responsible for ensuring your use complies with applicable laws, regulations, and any third-party terms that apply to content you process using the Site.
             </p>
 
             <h2>Prohibited Conduct</h2>
@@ -46,7 +46,7 @@ export default function TermsAndConditionsPage() {
 
             <h2>User-Provided Content</h2>
             <p>
-              You retain ownership of text you paste into the tools. By using the tools, you grant TextTools a limited, non-exclusive license to process that content solely for the purpose of providing the requested functionality. We do not claim ownership over your content.
+              You retain ownership of text you paste into the tools. By using the tools, you grant TextForge a limited, non-exclusive license to process that content solely for the purpose of providing the requested functionality. We do not claim ownership over your content.
             </p>
 
             <h2>Disclaimer of Warranties</h2>
@@ -56,7 +56,7 @@ export default function TermsAndConditionsPage() {
 
             <h2>Limitation of Liability</h2>
             <p>
-              To the maximum extent permitted by law, TextTools and its operators are not liable for indirect, incidental, consequential, or punitive damages arising from your use of the Site. This includes any loss of data, revenue, or reputational damage. Some jurisdictions do not allow certain limitations of liability, so these exclusions may not apply to you in full.
+              To the maximum extent permitted by law, TextForge and its operators are not liable for indirect, incidental, consequential, or punitive damages arising from your use of the Site. This includes any loss of data, revenue, or reputational damage. Some jurisdictions do not allow certain limitations of liability, so these exclusions may not apply to you in full.
             </p>
 
             <h2>Termination</h2>
@@ -71,7 +71,7 @@ export default function TermsAndConditionsPage() {
 
             <h2>Indemnification</h2>
             <p>
-              You agree to indemnify and hold harmless TextTools, its affiliates, and their officers, agents, and employees from any claim or demand arising out of your use of the Site, your violation of these Terms, or infringement of any rights of another party.
+              You agree to indemnify and hold harmless TextForge, its affiliates, and their officers, agents, and employees from any claim or demand arising out of your use of the Site, your violation of these Terms, or infringement of any rights of another party.
             </p>
 
             <h2>Governing Law</h2>

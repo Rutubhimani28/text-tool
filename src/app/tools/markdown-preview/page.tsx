@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Write Markdown and preview the rendered HTML in real-time. Copy or download the generated HTML with a single click.",
   alternates: { canonical: "/tools/markdown-preview" },
   openGraph: {
-    title: "Markdown Preview — TextTools",
+    title: "Markdown Preview — TextForge",
     description: "Write Markdown and preview HTML in real-time.",
     url: "/tools/markdown-preview",
   },

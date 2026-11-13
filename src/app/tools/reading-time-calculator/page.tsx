@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Paste any text and instantly estimate how long it will take to read or speak it aloud. Based on scientifically-backed average reading speeds.",
   alternates: { canonical: "/tools/reading-time-calculator" },
   openGraph: {
-    title: "Reading Time Calculator — TextTools",
+    title: "Reading Time Calculator — TextForge",
     description: "Estimate reading and speaking time for any text.",
     url: "/tools/reading-time-calculator",
   },

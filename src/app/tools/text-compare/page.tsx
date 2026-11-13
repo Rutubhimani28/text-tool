@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Free online text comparison tool. Paste two blocks of text side-by-side and instantly highlight every difference at the word or line level.",
   alternates: { canonical: "/tools/text-compare" },
   openGraph: {
-    title: "Text Compare Tool — TextTools",
+    title: "Text Compare Tool — TextForge",
     description: "Compare two texts and highlight the differences instantly.",
     url: "/tools/text-compare",
   },

@@ -7,17 +7,17 @@ const randomTextGeneratorTool = TOOL_MAP.get("random-text-generator");
 
 export const metadata: Metadata = randomTextGeneratorTool
   ? {
-      title: `${randomTextGeneratorTool.name} — TextTools`,
+      title: `${randomTextGeneratorTool.name} — TextForge`,
       description: randomTextGeneratorTool.seoDescription,
       alternates: { canonical: randomTextGeneratorTool.href },
       openGraph: {
-        title: `${randomTextGeneratorTool.name} — TextTools`,
+        title: `${randomTextGeneratorTool.name} — TextForge`,
         description: randomTextGeneratorTool.seoDescription,
         url: randomTextGeneratorTool.href,
       },
     }
   : {
-      title: "Random Text Generator — TextTools",
+      title: "Random Text Generator — TextForge",
       description: "Generate random placeholder text for demos and testing.",
     };
 

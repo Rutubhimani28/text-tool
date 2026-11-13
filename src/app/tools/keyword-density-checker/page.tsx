@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Free keyword density checker. Paste your content and see the top keywords, their count, and density percentage to optimize for SEO.",
   alternates: { canonical: "/tools/keyword-density-checker" },
   openGraph: {
-    title: "Keyword Density Checker — TextTools",
+    title: "Keyword Density Checker — TextForge",
     description: "Analyze keyword frequency and density for better SEO.",
     url: "/tools/keyword-density-checker",
   },

@@ -28,13 +28,26 @@ const PRESET_COLORS = [
   { name: "Brown", hex: "#78350f" },
 ];
 
+function hexToRgb(hex: string) {
+  const h = hex.replace("#", "");
+  return [0, 2, 4].map((i) => parseInt(h.substring(i, i + 2), 16));
+}
+
 function getContrastColor(hex: string) {
-  const cleanHex = hex.replace("#", "");
-  const r = parseInt(cleanHex.substring(0, 2), 16);
-  const g = parseInt(cleanHex.substring(2, 4), 16);
-  const b = parseInt(cleanHex.substring(4, 6), 16);
+  const [r, g, b] = hexToRgb(hex);
   const yiq = (r * 299 + g * 587 + b * 114) / 1000;
   return yiq >= 140 ? "#0f172a" : "#f8fafc";
+}
+
+// Lighten a colour towards white so it stays readable as an accent on a dark surface.
+function lighten(hex: string, amount: number) {
+  const [r, g, b] = hexToRgb(hex).map((c) => Math.round(c + (255 - c) * amount));
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
+function rgbToHex(rgb: string) {
+  const [r, g, b] = rgb.match(/\d+/g)!.map(Number);
+  return `#${[r, g, b].map((c) => c.toString(16).padStart(2, "0")).join("")}`;
 }
 
 export function ModeToggle() {
@@ -52,32 +65,33 @@ export function ModeToggle() {
   React.useEffect(() => {
     const isCustomActive = theme === "custom";
     if (isCustomActive) {
-      const textColor = getContrastColor(activeColor);
-      const isLightBg = textColor === "#0f172a";
-      
-      document.documentElement.style.setProperty("--background", activeColor)
-      document.documentElement.style.setProperty("--foreground", textColor)
-      document.documentElement.style.setProperty("--card", activeColor)
-      document.documentElement.style.setProperty("--card-foreground", textColor)
-      document.documentElement.style.setProperty("--popover", activeColor)
-      document.documentElement.style.setProperty("--popover-foreground", textColor)
-      
-      // Secondary/Muted colors that fit this background
-      document.documentElement.style.setProperty("--muted", isLightBg ? "rgba(0,0,0,0.06)" : "rgba(255,255,255,0.08)")
-      document.documentElement.style.setProperty("--muted-foreground", isLightBg ? "rgba(15,23,42,0.7)" : "rgba(248,250,252,0.7)")
-      document.documentElement.style.setProperty("--border", isLightBg ? "rgba(0,0,0,0.12)" : "rgba(255,255,255,0.12)")
-      
-      // Let primary color be the text contrast color so buttons stand out
-      document.documentElement.style.setProperty("--primary", textColor)
-      document.documentElement.style.setProperty("--primary-foreground", activeColor)
-      document.documentElement.style.setProperty("--ring", textColor)
-      
-      // Manually manage dark/light class on body for Tailwind styling components (like shadcn cards)
-      if (!isLightBg) {
-        document.documentElement.classList.add("dark")
-      } else {
-        document.documentElement.classList.remove("dark")
-      }
+      // Custom theme = dark surfaces tinted with the chosen colour, and the colour
+      // itself (lightened if needed) as the accent. A fully saturated page background
+      // makes the hard-coded blue/teal accents unreadable, so we never use it directly.
+      const root = document.documentElement.style
+      const tint = (pct: number) => `color-mix(in oklab, ${activeColor} ${pct}%, #05060a)`
+      const [r, g, b] = hexToRgb(activeColor)
+      const isLightColor = (r * 299 + g * 587 + b * 114) / 1000 >= 140
+      const accent = rgbToHex(lighten(activeColor, isLightColor ? 0.1 : 0.45))
+      const accentText = getContrastColor(accent)
+
+      root.setProperty("--background", tint(16))
+      root.setProperty("--foreground", "#f8fafc")
+      root.setProperty("--card", tint(24))
+      root.setProperty("--card-foreground", "#f8fafc")
+      root.setProperty("--popover", tint(26))
+      root.setProperty("--popover-foreground", "#f8fafc")
+
+      root.setProperty("--muted", tint(32))
+      root.setProperty("--muted-foreground", "rgba(248,250,252,0.72)")
+      root.setProperty("--border", "rgba(255,255,255,0.14)")
+
+      root.setProperty("--primary", accent)
+      root.setProperty("--primary-foreground", accentText)
+      root.setProperty("--ring", accent)
+
+      // Always dark-based, so Tailwind `dark:` variants apply to every component.
+      document.documentElement.classList.add("dark")
     } else {
       document.documentElement.style.removeProperty("--background")
       document.documentElement.style.removeProperty("--foreground")

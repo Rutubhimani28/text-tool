@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Disclaimer | TextTools",
-  description: "Read the disclaimer for TextTools and understand the limits of the service.",
+  title: "Disclaimer | TextForge",
+  description: "Read the disclaimer for TextForge and understand the limits of the service.",
 };
 
 export default function DisclaimerPage() {
@@ -16,7 +16,7 @@ export default function DisclaimerPage() {
         <div className="container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">Disclaimer</h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            TextTools is provided for convenience and informational purposes. Please review your own work carefully before relying on the results.
+            TextForge is provided for convenience and informational purposes. Please review your own work carefully before relying on the results.
           </p>
         </div>
       </section>
@@ -26,7 +26,7 @@ export default function DisclaimerPage() {
           <div className="prose prose-lg max-w-none dark:prose-invert">
             <h2>Purpose and Scope</h2>
             <p>
-              The content and utilities provided on TextTools are intended for general informational and productivity purposes. This Disclaimer clarifies the limits of liability, accuracy, and suitability of the information and tools on the Site. It is not a substitute for professional advice in areas such as legal, medical, financial, or technical domains.
+              The content and utilities provided on TextForge are intended for general informational and productivity purposes. This Disclaimer clarifies the limits of liability, accuracy, and suitability of the information and tools on the Site. It is not a substitute for professional advice in areas such as legal, medical, financial, or technical domains.
             </p>
 
             <h2>Informational Use Only</h2>
@@ -46,7 +46,7 @@ export default function DisclaimerPage() {
 
             <h2>Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by law, TextTools and its contributors are not liable for any direct, indirect, incidental, special, consequential, or punitive damages arising out of your use of (or inability to use) the Site. This includes data loss, business interruption, or any damages resulting from reliance on the Site's outputs.
+              To the fullest extent permitted by law, TextForge and its contributors are not liable for any direct, indirect, incidental, special, consequential, or punitive damages arising out of your use of (or inability to use) the Site. This includes data loss, business interruption, or any damages resulting from reliance on the Site's outputs.
             </p>
 
             <h2>Third-Party Content and Links</h2>

@@ -25,7 +25,7 @@ export const ALL_BLOG_POSTS: BlogPost[] = [
       "word count tips, writing within word limits, essay word count, content length guide, word counter tips",
     excerpt:
       "Struggling to stay within word limits? Whether you are writing an essay, a blog post, or a social media caption, these practical strategies will help you write concisely without losing impact.",
-    author: "TextTools Team",
+    author: "TextForge Team",
     publishedDate: "2025-07-10",
     readingTime: "4 min",
     category: "Writing Tips",
@@ -62,7 +62,7 @@ export const ALL_BLOG_POSTS: BlogPost[] = [
       "title case vs sentence case, case conversion guide, text formatting rules, capitalization guide, when to use uppercase",
     excerpt:
       "Title Case or Sentence case? UPPERCASE or lowercase? This style guide explains when to use each capitalization format for headlines, emails, code, and professional writing.",
-    author: "TextTools Team",
+    author: "TextForge Team",
     publishedDate: "2025-06-22",
     readingTime: "5 min",
     category: "Style Guide",
@@ -99,7 +99,7 @@ export const ALL_BLOG_POSTS: BlogPost[] = [
       "lorem ipsum history, placeholder text origin, why use lorem ipsum, dummy text history, lorem ipsum meaning",
     excerpt:
       "Lorem Ipsum has been the printing industry's standard dummy text since the 1500s. But where did it actually come from, and why do we still use it in modern web design?",
-    author: "TextTools Team",
+    author: "TextForge Team",
     publishedDate: "2025-05-15",
     readingTime: "4 min",
     category: "History",
@@ -136,7 +136,7 @@ export const ALL_BLOG_POSTS: BlogPost[] = [
       "text formatting SEO, SEO content tips, heading structure SEO, character limits SEO, keyword density best practices",
     excerpt:
       "Good text formatting is not just about aesthetics — it directly impacts your search engine rankings. Learn the essential formatting rules that help your content rank higher in 2025.",
-    author: "TextTools Team",
+    author: "TextForge Team",
     publishedDate: "2025-08-01",
     readingTime: "5 min",
     category: "SEO",
@@ -178,7 +178,7 @@ export const ALL_BLOG_POSTS: BlogPost[] = [
       "remove duplicate lines, data cleaning guide, deduplicate text, clean email list, remove duplicate entries, data hygiene",
     excerpt:
       "Duplicate data wastes time, skews analytics, and causes errors in automated systems. This guide covers practical methods to identify and remove duplicate lines from any text-based dataset.",
-    author: "TextTools Team",
+    author: "TextForge Team",
     publishedDate: "2025-04-28",
     readingTime: "4 min",
     category: "Data Cleaning",
@@ -220,7 +220,7 @@ export const ALL_BLOG_POSTS: BlogPost[] = [
       "markdown guide, markdown tutorial, learn markdown, markdown syntax, markdown for beginners, text formatting markdown",
     excerpt:
       "Markdown is the universal language of text formatting on the web. From GitHub READMEs to blog posts, this guide teaches you everything you need to write beautifully formatted content.",
-    author: "TextTools Team",
+    author: "TextForge Team",
     publishedDate: "2025-03-18",
     readingTime: "6 min",
     category: "Tutorials",

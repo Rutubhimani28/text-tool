@@ -30,11 +30,11 @@ export function Footer() {
           {/* Brand Info */}
           <div className="space-y-4 md:col-span-1">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/TextToolLogo.png" alt="TextTools Logo" width={200} height={60} className="h-14 w-auto" priority />
-              <span className="font-bold text-xl tracking-tight">TextTools</span>
+              <Image src="/logo.svg" alt="TextForge logo" width={48} height={48} className="h-10 w-10" priority />
+              <span className="font-bold text-xl tracking-tight">TextForge</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Free Online Text Tools for Writers, Bloggers, Students & SEO Professionals. Fast, reliable, and completely client-side.
+              Forge cleaner text in seconds. Free, private text tools for writers, bloggers, students & SEO pros — everything runs in your browser.
             </p>
           </div>
 
@@ -83,7 +83,7 @@ export function Footer() {
 
         <div className="border-t pt-8 text-center sm:flex sm:justify-between sm:text-left">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} TextTools. All rights reserved.
+            © {new Date().getFullYear()} TextForge. All rights reserved.
           </p>
         </div>
       </div>

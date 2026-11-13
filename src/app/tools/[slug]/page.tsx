@@ -19,17 +19,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!tool) {
     return {
-      title: "Tool Not Found — TextTools",
+      title: "Tool Not Found — TextForge",
       description: "The requested text tool does not exist.",
     };
   }
 
   return {
-    title: `${tool.name} — TextTools`,
+    title: `${tool.name} — TextForge`,
     description: tool.seoDescription,
     alternates: { canonical: tool.href },
     openGraph: {
-      title: `${tool.name} — TextTools`,
+      title: `${tool.name} — TextForge`,
       description: tool.seoDescription,
       url: tool.href,
     },

@@ -7,17 +7,17 @@ const speakingTimeCalculatorTool = TOOL_MAP.get("speaking-time-calculator");
 
 export const metadata: Metadata = speakingTimeCalculatorTool
   ? {
-      title: `${speakingTimeCalculatorTool.name} — TextTools`,
+      title: `${speakingTimeCalculatorTool.name} — TextForge`,
       description: speakingTimeCalculatorTool.seoDescription,
       alternates: { canonical: speakingTimeCalculatorTool.href },
       openGraph: {
-        title: `${speakingTimeCalculatorTool.name} — TextTools`,
+        title: `${speakingTimeCalculatorTool.name} — TextForge`,
         description: speakingTimeCalculatorTool.seoDescription,
         url: speakingTimeCalculatorTool.href,
       },
     }
   : {
-      title: "Speaking Time Calculator — TextTools",
+      title: "Speaking Time Calculator — TextForge",
       description: "Estimate how long your text will take to speak aloud.",
     };
 

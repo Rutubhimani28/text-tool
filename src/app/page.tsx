@@ -349,7 +349,7 @@ const features = [
   },
   {
     title: "Works Everywhere",
-    desc: "Phone, tablet, laptop, or desktop — TextTools adapts perfectly to every screen size.",
+    desc: "Phone, tablet, laptop, or desktop — TextForge adapts perfectly to every screen size.",
     icon: Globe,
   },
   {
@@ -368,7 +368,7 @@ const testimonials = [
   {
     name: "Priya Sharma",
     role: "Content Writer",
-    text: "TextTools has become my daily companion. The Word Counter and Reading Time Calculator help me hit publishing deadlines with perfectly-sized articles every single time.",
+    text: "TextForge has become my daily companion. The Word Counter and Reading Time Calculator help me hit publishing deadlines with perfectly-sized articles every single time.",
     avatar: "PS",
   },
   {
@@ -387,20 +387,20 @@ const testimonials = [
 
 const faqs = [
   {
-    q: "Are all the text formatting and SEO tools on TextTools truly 100% free to use?",
-    a: "Yes, every single tool available on the TextTools platform is absolutely 100% free for everyone, without any strings attached. In today's digital landscape, many utility websites lure you in with basic features and then hide their best tools behind expensive premium tiers or recurring monthly subscriptions. We firmly believe that fundamental text manipulation, SEO analysis, and content formatting tools should be universally accessible. Whether you are a student writing an essay, an author drafting a novel, or a digital marketer optimizing website content, you have unlimited access to our word counters, case converters, and duplicate line removers at zero cost. There are no paywalls, no hidden fees, and no usage limits.",
+    q: "Are all the text formatting and SEO tools on TextForge truly 100% free to use?",
+    a: "Yes, every single tool available on the TextForge platform is absolutely 100% free for everyone, without any strings attached. In today's digital landscape, many utility websites lure you in with basic features and then hide their best tools behind expensive premium tiers or recurring monthly subscriptions. We firmly believe that fundamental text manipulation, SEO analysis, and content formatting tools should be universally accessible. Whether you are a student writing an essay, an author drafting a novel, or a digital marketer optimizing website content, you have unlimited access to our word counters, case converters, and duplicate line removers at zero cost. There are no paywalls, no hidden fees, and no usage limits.",
   },
   {
     q: "How secure is my text data? Is it ever uploaded or stored on your servers?",
-    a: "Your privacy and data security are our absolute top priorities. Unlike many other online text editors or grammar checkers that upload your sensitive documents to remote servers for processing, TextTools is built entirely on modern client-side web technologies. This means that every single operation—whether you are counting words, converting text cases, calculating keyword densities, or removing duplicate lines—happens locally right inside your own web browser. Your text data never leaves your device, it is never transmitted over the internet, and it is never saved to any database. Once you close your browser tab, the data is completely gone. This robust, zero-server-interaction architecture ensures that you can safely paste confidential emails, proprietary code, or sensitive legal documents without any fear of data breaches or privacy violations.",
+    a: "Your privacy and data security are our absolute top priorities. Unlike many other online text editors or grammar checkers that upload your sensitive documents to remote servers for processing, TextForge is built entirely on modern client-side web technologies. This means that every single operation—whether you are counting words, converting text cases, calculating keyword densities, or removing duplicate lines—happens locally right inside your own web browser. Your text data never leaves your device, it is never transmitted over the internet, and it is never saved to any database. Once you close your browser tab, the data is completely gone. This robust, zero-server-interaction architecture ensures that you can safely paste confidential emails, proprietary code, or sensitive legal documents without any fear of data breaches or privacy violations.",
   },
   {
     q: "Do I need to create a user account, provide my email, or log in to use the platform?",
-    a: "No, you do not need to create an account, and we will never ask for your email address. We understand how frustrating it is when you simply want to quickly format a paragraph or count the words in a sentence, only to be blocked by a mandatory sign-up form or an email verification prompt. TextTools is designed for ultimate speed, frictionless access, and instant productivity. You can simply bookmark our homepage, open it whenever you need a tool, and start typing or pasting your text immediately. By completely eliminating the user registration process, we respect your time and ensure that you can jump straight into your workflow without any unnecessary digital hurdles.",
+    a: "No, you do not need to create an account, and we will never ask for your email address. We understand how frustrating it is when you simply want to quickly format a paragraph or count the words in a sentence, only to be blocked by a mandatory sign-up form or an email verification prompt. TextForge is designed for ultimate speed, frictionless access, and instant productivity. You can simply bookmark our homepage, open it whenever you need a tool, and start typing or pasting your text immediately. By completely eliminating the user registration process, we respect your time and ensure that you can jump straight into your workflow without any unnecessary digital hurdles.",
   },
   {
-    q: "Is TextTools compatible with mobile devices, tablets, and different web browsers?",
-    a: "Absolutely! TextTools has been meticulously engineered from the ground up using responsive web design principles to ensure a flawless user experience across all devices and screen sizes. Whether you are using a large 4K desktop monitor in your office, a laptop at a coffee shop, an iPad, or a smartphone while on the commute, the interface automatically adapts to provide you with the most optimal layout. Furthermore, because our tools run entirely on client-side JavaScript, they are fully compatible with all modern web browsers, including Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge. You get the exact same powerful functionality and lightning-fast performance regardless of the hardware or operating system you choose to use.",
+    q: "Is TextForge compatible with mobile devices, tablets, and different web browsers?",
+    a: "Absolutely! TextForge has been meticulously engineered from the ground up using responsive web design principles to ensure a flawless user experience across all devices and screen sizes. Whether you are using a large 4K desktop monitor in your office, a laptop at a coffee shop, an iPad, or a smartphone while on the commute, the interface automatically adapts to provide you with the most optimal layout. Furthermore, because our tools run entirely on client-side JavaScript, they are fully compatible with all modern web browsers, including Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge. You get the exact same powerful functionality and lightning-fast performance regardless of the hardware or operating system you choose to use.",
   },
   {
     q: "How exactly do you calculate the estimated reading time and speaking time?",
@@ -411,20 +411,20 @@ const faqs = [
     a: "Keyword density is a critical metric in Search Engine Optimization that measures how often a specific target keyword or phrase appears in your content compared to the total word count. While search engine algorithms have evolved significantly, maintaining an optimal keyword density (typically between 1% and 3%) remains essential for on-page SEO. If your density is too low, search engines like Google might not understand the primary topic of your page, causing it to rank poorly. Conversely, if your density is too high, you risk triggering spam filters for 'keyword stuffing,' which can lead to severe ranking penalties. Our Keyword Density Checker provides instant, real-time analysis of your text, automatically filtering out common stop words (like 'the', 'and', 'or') to give you an accurate picture of your most dominant terms, helping you craft perfectly optimized content that ranks higher in search results.",
   },
   {
-    q: "What makes TextTools different from or better than other standard online word counters?",
-    a: "While many websites offer basic word counting, TextTools is an all-in-one, comprehensive text processing suite designed specifically for power users, writers, and digital professionals. First, our platform features a breathtakingly modern, premium, and clutter-free interface that eliminates the aggressive banner ads and pop-ups that plague other utility sites. Second, we bundle multiple indispensable tools into one cohesive ecosystem—you don't just get a word counter; you get instant access to case converters, duplicate line removers, reading time calculators, and markdown previewers all in one place. Finally, our commitment to 100% client-side processing means that our tools are significantly faster than server-based alternatives. There is zero loading time or server latency; as soon as you type or paste your text, the results are calculated and displayed instantaneously.",
+    q: "What makes TextForge different from or better than other standard online word counters?",
+    a: "While many websites offer basic word counting, TextForge is an all-in-one, comprehensive text processing suite designed specifically for power users, writers, and digital professionals. First, our platform features a breathtakingly modern, premium, and clutter-free interface that eliminates the aggressive banner ads and pop-ups that plague other utility sites. Second, we bundle multiple indispensable tools into one cohesive ecosystem—you don't just get a word counter; you get instant access to case converters, duplicate line removers, reading time calculators, and markdown previewers all in one place. Finally, our commitment to 100% client-side processing means that our tools are significantly faster than server-based alternatives. There is zero loading time or server latency; as soon as you type or paste your text, the results are calculated and displayed instantaneously.",
   },
   {
     q: "How can the Duplicate Line Remover tool help me with data cleaning and coding?",
     a: "The Duplicate Line Remover is one of our most powerful utilities, specifically designed to help researchers, data analysts, and software developers clean up messy data sets in seconds. When you are dealing with massive lists of email addresses, messy CSV data, scraped URLs, or extensive code logs, manually identifying and deleting repetitive lines is incredibly tedious and prone to human error. Our tool instantly scans your text, identifies every exact duplicate line, and strips them away, leaving you with a perfectly clean, unique list. We also offer advanced options like case-sensitive filtering and the ability to automatically remove empty lines, saving you hours of frustrating manual labor and streamlining your data processing workflows.",
   },
   {
-    q: "Who can benefit the most from using the suite of utilities provided by TextTools?",
-    a: "TextTools is a versatile platform that caters to a massive variety of digital professionals and students. Copywriters and freelance bloggers use our Word Counter and Character Counter to ensure they meet strict editorial guidelines and character limits for social media platforms like Twitter (X) or LinkedIn. SEO specialists rely heavily on our Keyword Density Checker to analyze and optimize their web copy for search engines. Programmers, developers, and data scientists utilize our Duplicate Line Remover and Case Converter to quickly format code, sanitize datasets, and convert text into camelCase, snake_case, or standard uppercase formats. Even casual users find our platform incredibly helpful for quickly formatting messy text copied from PDF documents or poorly formatted emails.",
+    q: "Who can benefit the most from using the suite of utilities provided by TextForge?",
+    a: "TextForge is a versatile platform that caters to a massive variety of digital professionals and students. Copywriters and freelance bloggers use our Word Counter and Character Counter to ensure they meet strict editorial guidelines and character limits for social media platforms like Twitter (X) or LinkedIn. SEO specialists rely heavily on our Keyword Density Checker to analyze and optimize their web copy for search engines. Programmers, developers, and data scientists utilize our Duplicate Line Remover and Case Converter to quickly format code, sanitize datasets, and convert text into camelCase, snake_case, or standard uppercase formats. Even casual users find our platform incredibly helpful for quickly formatting messy text copied from PDF documents or poorly formatted emails.",
   },
   {
     q: "Will you be adding more text formatting and manipulation tools in the future?",
-    a: "Absolutely! TextTools is an actively maintained and constantly evolving platform. Our development team is deeply committed to expanding our suite of utilities based directly on user feedback and emerging digital trends. We are already in the process of designing and developing several exciting new features, including advanced text diff tools (to compare two documents side-by-side), JSON formatters, regular expression (RegEx) testers, and AI-assisted grammar checking modules. We continuously monitor the needs of writers, developers, and SEO experts to ensure that TextTools remains the ultimate, all-in-one destination for text processing on the web. If you have a specific tool request or a feature suggestion, we highly encourage you to reach out to us through our contact page!",
+    a: "Absolutely! TextForge is an actively maintained and constantly evolving platform. Our development team is deeply committed to expanding our suite of utilities based directly on user feedback and emerging digital trends. We are already in the process of designing and developing several exciting new features, including advanced text diff tools (to compare two documents side-by-side), JSON formatters, regular expression (RegEx) testers, and AI-assisted grammar checking modules. We continuously monitor the needs of writers, developers, and SEO experts to ensure that TextForge remains the ultimate, all-in-one destination for text processing on the web. If you have a specific tool request or a feature suggestion, we highly encourage you to reach out to us through our contact page!",
   },
 ];
 
@@ -446,20 +446,20 @@ export default function Home() {
             <div className="lg:col-span-7 flex flex-col items-center lg:items-start">
               <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 dark:border-blue-800 bg-blue-50/80 dark:bg-blue-950/40 px-4 py-1.5 mb-8 text-sm text-blue-700 dark:text-blue-300 backdrop-blur-sm">
                 <Sparkles className="h-3.5 w-3.5" />
-                9+ Free Text Tools — No Sign-Up Required
+                Free Text Toolkit — No Sign-Up, No Uploads
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-5xl font-extrabold tracking-tight mb-6 leading-[1.1]">
-                Free Online Text Tools
+                Forge Cleaner Text,
                 <br className="hidden sm:inline" />
                 <span className="bg-gradient-to-r from-blue-600 via-violet-600 to-pink-600 dark:from-blue-400 dark:via-violet-400 dark:to-pink-400 bg-clip-text text-transparent">
-                  {" "}for Everyone
+                  {" "}in Seconds
                 </span>
               </h1>
 
               <p className="text-lg text-muted-foreground max-w-2xl mb-10 leading-relaxed">
-                Count words, convert case, remove duplicates, compare text, and more —
-                all from your browser, completely free and private.
+                Count words, convert case, strip duplicates, compare drafts and more —
+                one fast toolkit that runs in your browser and never sees your text.
               </p>
 
               {/* Search Bar */}
@@ -614,10 +614,10 @@ export default function Home() {
         <div className="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
-              Why Choose TextTools?
+              Why Choose TextForge?
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              We built TextTools to be the fastest, cleanest, and most privacy-conscious
+              We built TextForge to be the fastest, cleanest, and most privacy-conscious
               text toolkit on the web.
             </p>
           </div>
@@ -647,7 +647,7 @@ export default function Home() {
               Frequently Asked Questions
             </h2>
             <p className="text-muted-foreground">
-              Everything you need to know about TextTools.
+              Everything you need to know about TextForge.
             </p>
           </div>
 

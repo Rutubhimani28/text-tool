@@ -7,17 +7,17 @@ const paragraphCounterTool = TOOL_MAP.get("paragraph-counter");
 
 export const metadata: Metadata = paragraphCounterTool
   ? {
-      title: `${paragraphCounterTool.name} — TextTools`,
+      title: `${paragraphCounterTool.name} — TextForge`,
       description: paragraphCounterTool.seoDescription,
       alternates: { canonical: paragraphCounterTool.href },
       openGraph: {
-        title: `${paragraphCounterTool.name} — TextTools`,
+        title: `${paragraphCounterTool.name} — TextForge`,
         description: paragraphCounterTool.seoDescription,
         url: paragraphCounterTool.href,
       },
     }
   : {
-      title: "Paragraph Counter — TextTools",
+      title: "Paragraph Counter — TextForge",
       description: "Count paragraphs instantly to verify structure and flow.",
     };
 

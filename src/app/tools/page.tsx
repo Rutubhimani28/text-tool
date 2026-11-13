@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "Browse 30+ free text tools: sentence counters, lorem ipsum generators, text formatters, find & replace utilities, and more.",
   alternates: { canonical: "/tools" },
   openGraph: {
-    title: "All Text Tools — TextTools",
+    title: "All Text Tools — TextForge",
     description: "Browse the full collection of free online text tools.",
     url: "/tools",
   },

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | TextTools",
-  description: "Learn how TextTools handles your data and respects your privacy while you use our free online text utilities.",
+  title: "Privacy Policy | TextForge",
+  description: "Learn how TextForge handles your data and respects your privacy while you use our free online text utilities.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -16,7 +16,7 @@ export default function PrivacyPolicyPage() {
         <div className="container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">Privacy Policy</h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            At TextTools, your privacy matters. We built this platform to keep your work fast, simple, and private.
+            At TextForge, your privacy matters. We built this platform to keep your work fast, simple, and private.
           </p>
         </div>
       </section>
@@ -26,12 +26,12 @@ export default function PrivacyPolicyPage() {
           <div className="prose prose-lg max-w-none dark:prose-invert">
             <h2>Overview</h2>
             <p>
-              This Privacy Policy explains how TextTools (the "Site", "we", "us" or "our") collects, uses, discloses, and protects information when you visit or use our free browser-based text utilities. Our core design principle is privacy-first: the majority of processing is performed locally in your browser so your text stays on your device unless you choose to send it elsewhere. This policy describes the limited circumstances where we may collect or process identifying or usage information, how we protect that data, and your choices regarding it.
+              This Privacy Policy explains how TextForge (the "Site", "we", "us" or "our") collects, uses, discloses, and protects information when you visit or use our free browser-based text utilities. Our core design principle is privacy-first: the majority of processing is performed locally in your browser so your text stays on your device unless you choose to send it elsewhere. This policy describes the limited circumstances where we may collect or process identifying or usage information, how we protect that data, and your choices regarding it.
             </p>
 
             <h2>What Information We Collect</h2>
             <p>
-              TextTools is intentionally built to minimize data collection. The primary services on this site perform text operations entirely inside your web browser. We do not require an account, and we do not ask for personal information to use the tools. However, a small subset of non-identifying information may be collected automatically to operate and improve the Site:
+              TextForge is intentionally built to minimize data collection. The primary services on this site perform text operations entirely inside your web browser. We do not require an account, and we do not ask for personal information to use the tools. However, a small subset of non-identifying information may be collected automatically to operate and improve the Site:
             </p>
             <ul>
               <li>Technical metadata such as browser type, operating system, and device characteristics.</li>
@@ -51,7 +51,7 @@ export default function PrivacyPolicyPage() {
 
             <h2>Third-Party Services</h2>
             <p>
-              To keep TextTools available and performant, we may rely on reputable third-party providers for hosting, CDN delivery, analytics, and optional advertising integrations. We evaluate vendors for privacy and security and limit the data shared to what is strictly necessary for the service they provide. We do not intentionally share your pasted text or processed outputs with these providers unless you explicitly use a feature that shares data with them.
+              To keep TextForge available and performant, we may rely on reputable third-party providers for hosting, CDN delivery, analytics, and optional advertising integrations. We evaluate vendors for privacy and security and limit the data shared to what is strictly necessary for the service they provide. We do not intentionally share your pasted text or processed outputs with these providers unless you explicitly use a feature that shares data with them.
             </p>
 
             <h2>Security</h2>
@@ -66,7 +66,7 @@ export default function PrivacyPolicyPage() {
 
             <h2>Children</h2>
             <p>
-              TextTools is not directed at children under 13. We do not knowingly collect personal information from children. If we become aware that a child under the applicable age has provided personal data, we will take steps to delete it.
+              TextForge is not directed at children under 13. We do not knowingly collect personal information from children. If we become aware that a child under the applicable age has provided personal data, we will take steps to delete it.
             </p>
 
             <h2>Your Rights and Choices</h2>

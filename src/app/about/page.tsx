@@ -11,17 +11,17 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About TextTools - Our Mission, Team & Privacy Commitment",
+  title: "About TextForge - Our Mission, Team & Privacy Commitment",
   description:
-    "TextTools is a free, open-source suite of 30+ text utilities built by a team of developers and writers. Learn about our mission, privacy-first architecture, and commitment to quality.",
+    "TextForge is a free, open-source suite of 30+ text utilities built by a team of developers and writers. Learn about our mission, privacy-first architecture, and commitment to quality.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "About TextTools — Free, Private, Open Text Utilities",
+    title: "About TextForge — Free, Private, Open Text Utilities",
     description:
-      "Built by developers for everyone. Learn about the team and mission behind TextTools.",
+      "Built by developers for everyone. Learn about the team and mission behind TextForge.",
     url: "/about",
     type: "website",
-    siteName: "TextTools",
+    siteName: "TextForge",
   },
 };
 
@@ -37,7 +37,7 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
             About{" "}
             <span className="bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
-              TextTools
+              TextForge
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
@@ -86,7 +86,7 @@ export default function AboutPage() {
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <h2>Our Story</h2>
             <p>
-              TextTools was founded in 2024 by a small team of web developers
+              TextForge was founded in 2024 by a small team of web developers
               and content professionals who were frustrated by the state of
               online text utilities. Every free tool we tried was either buried
               under layers of intrusive advertising, required unnecessary account
@@ -146,7 +146,7 @@ export default function AboutPage() {
               significant security risks.
             </p>
             <p>
-              TextTools is built with modern Web APIs and advanced JavaScript
+              TextForge is built with modern Web APIs and advanced JavaScript
               frameworks. Every single calculation — from complex word counting
               algorithms to intensive duplicate line removal — happens locally on
               your own machine. Your text data never leaves your device, is never
@@ -157,12 +157,12 @@ export default function AboutPage() {
 
             <h2>Our Team & Expertise</h2>
             <p>
-              TextTools is maintained by a dedicated team of full-stack
+              TextForge is maintained by a dedicated team of full-stack
               developers, UX designers, and technical writers with combined
               experience spanning web development, content strategy, and
               developer tooling. Our engineering team has built production
               software used by thousands of users and brings that same standard
-              of quality to every tool in the TextTools suite.
+              of quality to every tool in the TextForge suite.
             </p>
             <p>
               We follow industry best practices in web performance optimization,
@@ -223,7 +223,7 @@ export default function AboutPage() {
               lines and strip unnecessary whitespace from massive datasets.
             </p>
             <p>
-              TextTools brings all of these utilities under one cohesive,
+              TextForge brings all of these utilities under one cohesive,
               easy-to-use platform. Our suite currently includes over 30 tools
               spanning text analysis, formatting, transformation, generation, and
               data extraction. We are continuously developing new features based
@@ -236,12 +236,12 @@ export default function AboutPage() {
               Great software should function flawlessly and be a joy to use. We
               invest heavily in creating intuitive, accessible, and visually
               polished interfaces. From carefully selected color palettes to
-              smooth micro-animations, every element of TextTools is crafted to
+              smooth micro-animations, every element of TextForge is crafted to
               provide a premium experience. We believe that free tools do not
               have to look or feel cheap.
             </p>
             <p>
-              Our platform is fully responsive — whether you access TextTools
+              Our platform is fully responsive — whether you access TextForge
               from a desktop workstation, a laptop at a coffee shop, or a
               smartphone during your commute, the interface adapts seamlessly.
               Accessibility is woven into our design philosophy, ensuring that

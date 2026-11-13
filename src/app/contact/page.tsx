@@ -3,8 +3,8 @@ import { Mail } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact Us | TextTools Support & Feedback",
-  description: "Get in touch with the TextTools team for support, bug reports, feature requests, or just to say hello.",
+  title: "Contact Us | TextForge Support & Feedback",
+  description: "Get in touch with the TextForge team for support, bug reports, feature requests, or just to say hello.",
 };
 
 export default function ContactPage() {
@@ -33,7 +33,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-2xl font-bold mb-4">Reach Out Directly</h2>
                 <p className="text-muted-foreground mb-6">
-                  We are always looking for ways to improve TextTools. If you have an idea for a new tool that would make your life easier, drop us a line!
+                  We are always looking for ways to improve TextForge. If you have an idea for a new tool that would make your life easier, drop us a line!
                 </p>
               </div>
 

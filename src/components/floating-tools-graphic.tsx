@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Sparkles, CheckCircle2, RefreshCw, Type, AlignLeft, ShieldCheck, Zap } from "lucide-react";
 
 const SAMPLE_TEXTS = [
-  "Free Online Text Tools for Writers & Developers 🚀",
+  "TextForge: Free Text Tools for Writers & Developers 🚀",
   "Instant Word Counter, Case Converter & Duplicate Remover ✨",
   "100% Client-Side Processing for Maximum Privacy 🔒",
 ];

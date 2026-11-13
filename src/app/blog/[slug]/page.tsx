@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!post) {
     return {
-      title: "Post Not Found — TextTools Blog",
+      title: "Post Not Found — TextForge Blog",
       description: "The requested blog post does not exist.",
     };
   }
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: post.publishedDate,
       authors: [post.author],
-      siteName: "TextTools",
+      siteName: "TextForge",
     },
     twitter: {
       card: "summary_large_image",
@@ -72,7 +72,7 @@ export default async function BlogPostPage({ params }: Props) {
     datePublished: post.publishedDate,
     publisher: {
       "@type": "Organization",
-      name: "TextTools",
+      name: "TextForge",
       url: "https://text-tools-swart.vercel.app",
     },
   };

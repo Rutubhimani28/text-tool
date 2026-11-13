@@ -7,17 +7,17 @@ const sentenceCounterTool = TOOL_MAP.get("sentence-counter");
 
 export const metadata: Metadata = sentenceCounterTool
   ? {
-      title: `${sentenceCounterTool.name} — TextTools`,
+      title: `${sentenceCounterTool.name} — TextForge`,
       description: sentenceCounterTool.seoDescription,
       alternates: { canonical: sentenceCounterTool.href },
       openGraph: {
-        title: `${sentenceCounterTool.name} — TextTools`,
+        title: `${sentenceCounterTool.name} — TextForge`,
         description: sentenceCounterTool.seoDescription,
         url: sentenceCounterTool.href,
       },
     }
   : {
-      title: "Sentence Counter — TextTools",
+      title: "Sentence Counter — TextForge",
       description: "Count sentences quickly and improve readability.",
     };
 

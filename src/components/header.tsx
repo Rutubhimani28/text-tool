@@ -31,7 +31,8 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md">
       <div className="container max-w-7xl mx-auto flex h-24 items-center px-4 sm:px-6 lg:px-8">
         <Link href="/" className="mr-6 flex items-center">
-          <Image src="/TextToolLogo.png" alt="TextTools Logo" width={200} height={60} className="h-20 w-auto" priority />
+          <Image src="/logo.svg" alt="TextForge logo" width={64} height={64} className="h-12 w-12" priority />
+          <span className="ml-3 text-2xl font-extrabold tracking-tight bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 bg-clip-text text-transparent">TextForge</span>
         </Link>
         <div className="hidden md:flex flex-1 items-center justify-between space-x-4">
           <nav className="flex items-center space-x-6 font-medium">

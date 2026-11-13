@@ -4,17 +4,17 @@ import { ArrowRight, BookOpen, Calendar, Clock, Tag } from "lucide-react";
 import { ALL_BLOG_POSTS } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
-  title: "Blog | TextTools - Tips, Tutorials & Guides for Writers",
+  title: "Blog | TextForge - Tips, Tutorials & Guides for Writers",
   description:
-    "Read our latest articles on content writing, SEO formatting, data cleaning, and how to get the most out of TextTools. Practical tips for writers and developers.",
+    "Read our latest articles on content writing, SEO formatting, data cleaning, and how to get the most out of TextForge. Practical tips for writers and developers.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "TextTools Blog - Writing Tips & Tutorials",
+    title: "TextForge Blog - Writing Tips & Tutorials",
     description:
       "Practical guides on text formatting, word count management, SEO, and digital productivity.",
     url: "/blog",
     type: "website",
-    siteName: "TextTools",
+    siteName: "TextForge",
   },
 };
 
@@ -32,7 +32,7 @@ export default function BlogPage() {
             Tips, Tutorials & Guides
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
-            The TextTools{" "}
+            The TextForge{" "}
             <span className="bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
               Blog
             </span>

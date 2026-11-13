@@ -16,13 +16,13 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "TextTools - Free Online Text Tools",
-    template: "%s | TextTools",
+    default: "TextForge - Free Online Text Toolkit for Clean, Fast Writing",
+    template: "%s | TextForge",
   },
-  description: "Free Online Text Tools for Writers, Bloggers, Students & SEO Professionals. Fast, reliable, and completely client-side.",
+  description: "Forge cleaner text in seconds. Free, private text tools for writers, bloggers, students & SEO pros — count, convert, compare and clean text right in your browser.",
   keywords: ["text tools", "word counter", "character counter", "seo tools", "case converter", "duplicate line remover"],
-  authors: [{ name: "TextTools Team" }],
-  creator: "TextTools",
+  authors: [{ name: "TextForge Team" }],
+  creator: "TextForge",
   verification: {
     google: "H4iwDAN2zhQPslpxE1LgC9m_9WpAz6QV6G1ykKei0n0",
   },
@@ -30,20 +30,19 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://text-tools-swart.vercel.app",
-    title: "TextTools - Free Online Text Tools",
-    description: "Free Online Text Tools for Writers, Bloggers, Students & SEO Professionals.",
-    siteName: "TextTools",
+    title: "TextForge - Free Online Text Toolkit for Clean, Fast Writing",
+    description: "Forge cleaner text in seconds. Free, private text tools for writers, bloggers, students & SEO pros.",
+    siteName: "TextForge",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TextTools - Free Online Text Tools",
-    description: "Free Online Text Tools for Writers, Bloggers, Students & SEO Professionals.",
-    creator: "@texttools",
+    title: "TextForge - Free Online Text Toolkit for Clean, Fast Writing",
+    description: "Forge cleaner text in seconds. Free, private text tools for writers, bloggers, students & SEO pros.",
   },
   icons: {
-    icon: "/TextToolLogo.png",
-    shortcut: "/TextToolLogo.png",
-    apple: "/TextToolLogo.png",
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
   },
   metadataBase: new URL(process.env.SITE_URL || "https://text-tools-swart.vercel.app"),
 };
@@ -56,8 +55,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
       <head>
-        <link rel="icon" href="/TextToolLogo.png" sizes="any" />
-        <link rel="apple-touch-icon" href="/TextToolLogo.png" />
+        <link rel="icon" href="/logo.svg" sizes="any" />
+        <link rel="apple-touch-icon" href="/logo.svg" />
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col bg-background font-sans antialiased text-foreground`}>
         <ThemeProvider
