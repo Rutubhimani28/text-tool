@@ -44,6 +44,11 @@ export const metadata: Metadata = {
     shortcut: "/logo.svg",
     apple: "/logo.svg",
   },
+  referrer: "no-referrer-when-downgrade",
+  other: {
+    // HilltopAds site verification
+    "38341942767368086a4933aa5e125ad2e66e81c6": "38341942767368086a4933aa5e125ad2e66e81c6",
+  },
   metadataBase: new URL(process.env.SITE_URL || "https://text-tools-swart.vercel.app"),
 };
 
