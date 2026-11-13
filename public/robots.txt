@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://text-tools-swart.vercel.app
+
+# Sitemaps
+Sitemap: https://text-tools-swart.vercel.app
