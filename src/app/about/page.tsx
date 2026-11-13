@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FlankBanners } from "@/components/banner-ads";
 import Link from "next/link";
 import {
   CheckCircle2,
@@ -30,6 +31,7 @@ export default function AboutPage() {
     <div className="flex flex-col min-h-screen">
       {/* Hero */}
       <section className="relative pt-20 pb-16 overflow-hidden">
+        <FlankBanners />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgba(255,255,255,1)_0%,rgba(240,248,255,1)_100%)] dark:bg-[linear-gradient(to_bottom,rgba(20,20,25,1)_0%,rgba(10,10,15,1)_100%)]" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1200px] h-[600px] rounded-[100%] bg-gradient-to-tr from-blue-500/10 via-violet-500/10 to-pink-500/10 blur-[120px] -z-10 opacity-80" />
 

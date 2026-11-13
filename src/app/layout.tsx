@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { AdScripts } from "@/components/ad-scripts";
+import { SideBanners, InlineBanner } from "@/components/banner-ads";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -71,11 +73,16 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <main className="flex-1 flex flex-col">
-            {children}
-          </main>
+          <div className="relative flex flex-1 flex-col">
+            <SideBanners />
+            <main className="flex-1 flex flex-col">
+              {children}
+            </main>
+          </div>
+          <InlineBanner />
           <Footer />
         </ThemeProvider>
+        <AdScripts />
       </body>
     </html>
   );

@@ -130,3 +130,14 @@
     scroll-behavior: smooth; /* Smooth scrolling */
   }
 }
+/* HilltopAds in-page push: show the toast at the top-right instead of bottom-right.
+   The ad script names its container class "▭" (U+25AD) and ignores its own `top`
+   option for this layout, so we override the position here. Desktop only: the
+   mobile layouts are already pinned to the top. */
+@media (min-width: 768px) {
+  .▭ {
+    top: 16px !important;
+    bottom: auto !important;
+    flex-direction: column !important;
+  }
+}
